@@ -2,24 +2,24 @@
 public class IfTest03 {
 
 	public static void main(String[] args) {
-		// Á¶°Ç¹® - if
+		// ì¡°ê±´ë¬¸ - if
 		int score = 79;
 		
 		if(score >=90) {
-			System.out.println("Á¡¼ö°¡ 90Á¡ º¸´Ù Å®´Ï´Ù");
-			System.out.println("µî±ŞÀÌ AÀÔ´Ï´Ù");
+			System.out.println("ì ìˆ˜ê°€ 90ì  ë³´ë‹¤ í½ë‹ˆë‹¤");
+			System.out.println("ë“±ê¸‰ì´ Aì…ë‹ˆë‹¤");
 		} else if(score >=80){
-			System.out.println("Á¡¼ö°¡ 80Á¡ º¸´Ù Å®´Ï´Ù");
-			System.out.println("µî±ŞÀÌ BÀÔ´Ï´Ù");
+			System.out.println("ì ìˆ˜ê°€ 80ì  ë³´ë‹¤ í½ë‹ˆë‹¤");
+			System.out.println("ë“±ê¸‰ì´ Bì…ë‹ˆë‹¤");
 		} else if(score >=70){
-			System.out.println("Á¡¼ö°¡ 70Á¡ º¸´Ù Å®´Ï´Ù");
-			System.out.println("µî±ŞÀÌ CÀÔ´Ï´Ù");
+			System.out.println("ì ìˆ˜ê°€ 70ì  ë³´ë‹¤ í½ë‹ˆë‹¤");
+			System.out.println("ë“±ê¸‰ì´ Cì…ë‹ˆë‹¤");
 		} else if(score >=60){
-			System.out.println("Á¡¼ö°¡ 60Á¡ º¸´Ù Å®´Ï´Ù");
-			System.out.println("µî±ŞÀÌ DÀÔ´Ï´Ù");
+			System.out.println("ì ìˆ˜ê°€ 60ì  ë³´ë‹¤ í½ë‹ˆë‹¤");
+			System.out.println("ë“±ê¸‰ì´ Dì…ë‹ˆë‹¤");
 		} else {
-			System.out.println("Á¡¼ö°¡ 60Á¡ º¸´Ù ÀÛ½À´Ï´Ù");
-			System.out.println("µî±ŞÀÌ FÀÔ´Ï´Ù");
+			System.out.println("ì ìˆ˜ê°€ 60ì  ë³´ë‹¤ ì‘ìŠµë‹ˆë‹¤");
+			System.out.println("ë“±ê¸‰ì´ Fì…ë‹ˆë‹¤"); 
 		}
 	}
 
